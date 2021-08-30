@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age verifier</title>
+    <link rel="stylesheet" href="styleAge.css">
+
+   
+</head>
+<body>
+    <header>
+        <h1>Verify your age</h1>
+    </header>
+
+
+    <section>
+         <div id = 'inputPlace'>
+            Born in:
+            <input type="number" id='age'>
+            <br>
+            Gender:
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+            
+            <input type="button" value="submit" id="submit" onclick="dataColector()">
+            
+        </div>
+
+        <div id = 'result'>
+          <h3 > fill the data to see the result </h3>  
+        </div>
+       
+    </section>
+
+
+
+    <footer>
+       <p> <a href="https://github.com/Creisoss"> @Creisoss </a></p>
+    </footer>
+
+    <script src="scriptAge.js"></script>
+</body>
+</html>
