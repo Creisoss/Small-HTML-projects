@@ -1,0 +1,101 @@
+body{
+    background-image: url('company.jpg');
+    background-repeat: no-repeat;
+   
+}
+header{
+    text-align: center;
+    margin-top: 100px;
+}
+
+
+
+
+#div0{
+    font-size: 30px;
+    color: #051f20;
+}
+#div1{
+    font-size: 40px;
+    color: #f5a55a;
+}
+
+
+
+section{
+    margin-top: 80px;
+    margin-left: 371px;
+    width: 600px;
+    height: 300px;
+    border-color: white;
+    border-style:groove;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.452);
+    position: relative;
+}
+#image{
+    width: 150px;
+    height: 150px;
+    border-radius: 300px;
+    margin-left: 225px;
+    margin-top: -75px;
+    border-style:inherit;
+    padding: -20px;
+}
+
+p{
+    margin:0;
+  }
+#name{
+    font-size: 30px;
+    color: #051f20;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#stars{
+    font-size: 25px;
+    color: #051f20;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: -20px;
+}
+#msg{
+    font-size: 20px;
+    color: #051f20;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 20px;
+}
+
+#back,#front{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    background-color: rgba(255, 255, 255, 0.452);
+    font-size: 40px;
+    color: #051f20;
+    border-color:white; 
+    transition: all 1s ease-in-out;
+}
+#back:hover{
+    background: #051f20;
+    color: #f5a55a;
+
+}
+
+#front:hover{
+    background: #051f20;
+    color: #f5a55a;
+
+}
+
+#back{
+    top: 55%;
+    left: 300px;
+}
+
+#front{
+    top: 55%;
+    right: 300px;
+}
