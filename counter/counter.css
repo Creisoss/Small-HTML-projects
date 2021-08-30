@@ -1,0 +1,44 @@
+body{
+    background: rgba(189, 139, 64, 0.719);
+}
+section{
+    height: 500px;
+    width: 300px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.63);
+    border-color: white;
+    border-style: solid;
+    padding: 10px;
+    border-radius: 40px;
+
+}
+
+
+h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+#counter{
+    text-align: center;
+    color: green;
+    font-size: 100px;
+
+}
+
+button{
+    margin-top: 40px;
+    margin-left: 50px;
+    background-color: blue;
+    color: white;
+    font-size: 20px;
+    height: 40px;
+    width: 200px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.63);
+    border-radius: 40px;
+    border-color: white;
+    border-style: solid;
+}
+
+
